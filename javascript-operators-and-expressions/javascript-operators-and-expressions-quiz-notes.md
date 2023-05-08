@@ -5,16 +5,16 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What data type is returned by an arithmetic operation?
-Addition `+`, subtraction `-`, multiplication `*`, division `/`, remainder `%`, exponentiation `**`.
+Numbers and integers.
 
 - What is string concatenation?
-String concatenation is when a plus operator `+` applied to strings, merges them.
+String concatenation is when a plus operator `+` applied to strings, merges / combines the strings.
 
 - What purpose(s) does the `+` plus operator serve in JavaScript?
 The `+` plus operator sums the numbers, and is also used to concatenate strings.
 
 - What data type is returned by comparing two values (`<`, `>`, `===`, etc)?
-A boolean data type, `true` or `false`.
+A boolean value that is a primitive data type, `true` or `false`.
 
 - What does the `+=` "plus-equals" operator do?
 The `+=` additional assignment operator performs addition (which is either numeric addition or string concatenation) on the two operands and assigns the result to the left operand.

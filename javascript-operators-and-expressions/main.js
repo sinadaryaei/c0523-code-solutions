@@ -1,6 +1,5 @@
 const width = 2;
 const height = 4;
-
 const area = width * height;
 
 console.log('the value of area:', area);
@@ -8,7 +7,6 @@ console.log('the typeof area:', typeof area);
 
 const bill = 10;
 const payment = 20;
-
 const change = payment - bill;
 
 console.log('the value of change:', change);
@@ -24,8 +22,7 @@ console.log('the type of grade:', typeof grade);
 
 const firstName = 'Ron';
 const lastName = 'Swanson';
-
-let fullName = firstName + ' ' + lastName;
+const fullName = firstName + ' ' + lastName;
 
 console.log('the value of fullName:', fullName);
 console.log('the typeof of fullName:', typeof fullName);
@@ -41,7 +38,6 @@ const isSparta = headCount === 300;
 
 console.log('the value of isSparta:', isSparta);
 console.log('the typeof isSparta:', typeof isSparta);
-
 
 let motto = fullName;
 motto += ' is the Goat';

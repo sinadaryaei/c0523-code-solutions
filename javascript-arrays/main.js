@@ -43,3 +43,18 @@ console.log(
 );
 
 console.log('value of colors:', colors);
+
+const students = ['John', 'Mark', 'Bob', 'Ray'];
+
+const numberOfStudents = students.length;
+
+console.log(
+  'There are' + ' ' + numberOfStudents + ' ' + 'students in the class.'
+);
+
+const lastIndex = numberOfStudents - 1;
+
+const lastStudent = students[lastIndex];
+
+console.log('The last student in the array is' + ' ' + lastStudent);
+console.log(students);

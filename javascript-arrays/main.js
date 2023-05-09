@@ -55,3 +55,5 @@ const lastStudent = students[lastIndex];
 
 console.log('The last student in the array is' + ' ' + lastStudent);
 console.log(students);
+
+// Comment

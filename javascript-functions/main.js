@@ -32,14 +32,9 @@ function getFirstName(person) {
   return names[0].firstName;
 }
 
-const names = [
-  {
-    firstName: 'Lelouche',
-    lastName: 'Lamperouge',
-  },
-];
+const names = { firstName: 'Lelouche', lastName: 'Lamperouge' };
 
-const getFirstNameResult = getFirstName();
+const getFirstNameResult = getFirstName(names);
 
 console.log('value of getFirstNameResult:', getFirstNameResult);
 

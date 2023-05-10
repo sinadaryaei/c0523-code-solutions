@@ -5,7 +5,7 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - Give 6 examples of comparison operators.
-  `if`, `else`, `else/if` statements, `comparison`, and `boolean`.
+  greater than `<`, less than `>`, equal to `==`, strictly equal `===`, not equal `!=`.
 
 - What data type do comparison expressions evaluate to?
   `true` or `false`.
@@ -18,16 +18,21 @@ After completing this exercise, you should be able to discuss or answer the foll
   No.
 
 - Describe the syntax (structure) of an `if` statement.
-  The keyword `if` followed by opening and closing parentheses `()`.
+  The keyword `if` statement followed by opening and closing parentheses `()`, opening curly brace `{` and closing `}` for block.
 
 - What are the three logical operators?
-  OR `||` , (AND) `&&`, (NOT) `!`.
+  OR `||` ,
+  (AND) `&&`,
+  (NOT) `!`.
 
 - How do you compare two different expressions in the same condition?
+  Using logical operators to combine the expressions.
 
 - What is the purpose of a `switch` statement?
+  The switch statement evaluates an expression, matching the expression's value against a series of case clauses, and executes statements after the first case clause with a matching value, until a break statement is encountered.
 
 - Is a `default` clause required in order to use a `switch` statement?
+  You want to include the `default` clause but it is not required.
 
 ## Notes
 

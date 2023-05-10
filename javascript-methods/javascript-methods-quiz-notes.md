@@ -14,17 +14,18 @@ After completing this exercise, you should be able to discuss or answer the foll
   Methods are built-in tasks performed by an object instance.
 
 - How do you remove the last element from an array?
-  To remove the last element of the array you use the `array.length -  1`.
+  The `pop()` method removes the last element from an array.
 
 - How do you round a number down to the nearest integer?
 
 - How do you generate a random number?
-  Using the `Math.random();` method.
+  Using the `Math.random()` method.
 
 - How do you delete an element from an array?
-  Using the `delete` at the begging of the objects dot notation.
+  Using the `splic()` method.
 
 - How do you append an element to an array?
+  The `push()` method appends the value of an array.
 
 - How do you break a string up into an array?
 

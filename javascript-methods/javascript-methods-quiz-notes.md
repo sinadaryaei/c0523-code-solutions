@@ -28,16 +28,22 @@ After completing this exercise, you should be able to discuss or answer the foll
   The `push()` method appends the value of an array.
 
 - How do you break a string up into an array?
+  Using the `split()` method to split a string.
 
 - Do string methods change the original string? How would you check if you weren't sure?
+  It takes the string and transforms it into an array, and using the `console.log` you can check.
 
 - Roughly how many string methods are there according to the MDN Web docs?
+  There are roughly `28` string methods according to the mdn.
 
 - Is the return value of a function or method useful in every situation?
+  No.
 
 - Roughly how many array methods are there according to the MDN Web docs?
+  There are roughly `29` array methods in the mdn.
 
 - What three-letter acronym should you always include in your Google search about a JavaScript method or CSS property?
+  MDN.
 
 ## Notes
 

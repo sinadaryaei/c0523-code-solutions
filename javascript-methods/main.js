@@ -8,11 +8,7 @@ console.log('value of maximumValue:', maximumValue);
 
 const heroes = ['hero1', 'hero2', 'hero3', 'hero4'];
 
-console.log('value of heroes:', heroes);
-
 let randomNumber = Math.random();
-
-console.log('value of randomNumber * heroes.length:', randomNumber);
 
 randomNumber = randomNumber * heroes.length;
 
@@ -54,3 +50,17 @@ library.unshift(css);
 library.splice(1, 1);
 
 console.log('value of the library array:', library);
+
+const fullName = 'firstName lastName';
+
+console.log('value of fullName:', fullName);
+
+const firstAndLastName = fullName.split(' ');
+
+console.log('value of firstAndLastName', firstAndLastName);
+
+const firstName = firstAndLastName[0];
+
+const sayMyName = firstName.toUpperCase();
+
+console.log('value of sayMyName:', sayMyName);

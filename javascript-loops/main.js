@@ -1,0 +1,38 @@
+/* exported getNumbersToTen,
+            getEvenNumbersToTwenty,
+            repeatWord,
+            logEachCharacter,
+            doubleAll,
+            getKeys,
+            getValues
+ */
+
+function getNumbersToTen() {
+  const numbers = [];
+  let currentNumber = 1;
+  while (currentNumber < 11) {
+    numbers.push(currentNumber);
+    currentNumber++;
+  }
+  return numbers;
+}
+
+function getEvenNumbersToTwenty() {
+  const evenNumbers = [];
+  let currentNumber = 2;
+  while (currentNumber < 22) {
+    evenNumbers.push(currentNumber);
+    currentNumber += 2;
+  }
+  return evenNumbers;
+}
+
+function repeatWord(word, times) {
+  let count = 1;
+  let repeated = '  ';
+  while (count < times) {
+    repeated += word;
+    count++;
+  }
+  return repeated;
+}

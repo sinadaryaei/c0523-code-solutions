@@ -1,34 +1,54 @@
 function convertMinutesToSeconds(minutes) {
-  const numberOfMinutes = 60 * minutes;
-  return numberOfMinutes;
+  const seconds = minutes * 60;
+  return seconds;
 }
-console.log('value of convertMinutesToSeconds:', convertMinutesToSeconds(5));
+
+const convertMinutesToSecondsResult = convertMinutesToSeconds(5);
+
+console.log(
+  'value of convertMinutesToSecondsResult:',
+  convertMinutesToSecondsResult
+);
 
 function greet(name) {
-  const personName = 'Hey, ' + name;
-  return personName;
+  const greeting = 'Hey, ' + name;
+  return greeting;
 }
-console.log('value of greet:', greet('Beavis'));
+
+const greetResult = greet('Beavis');
+
+console.log('value of greetResult:', greetResult);
 
 function getArea(width, height) {
-  const areaOfRectangle = width * height;
-  return areaOfRectangle;
+  const area = width * height;
+  return area;
 }
-console.log('value of getArea:', getArea(17, 42));
+
+const getAreaResult = getArea(17, 42);
+
+console.log('value of getAreaResult:', getAreaResult);
 
 function getFirstName(person) {
-  const names = [
-    {
-      firstName: 'Lelouche',
-      lastName: 'Lamperouge',
-    },
-  ];
   return names[0].firstName;
 }
-console.log('value of getFirstName:', getFirstName());
+
+const names = [
+  {
+    firstName: 'Lelouche',
+    lastName: 'Lamperouge',
+  },
+];
+
+const getFirstNameResult = getFirstName();
+
+console.log('value of getFirstNameResult:', getFirstNameResult);
 
 function getLastElement(array) {
-  const myArray = ['propane', 'and', 'propane', 'accessories'];
   return myArray[myArray.length - 1];
 }
-console.log('value of getLastElement', getLastElement());
+
+const myArray = ['propane', 'and', 'propane', 'accessories'];
+
+const getLastElementResult = getLastElement();
+
+console.log('value of getLastElementResult', getLastElementResult);

@@ -15,8 +15,10 @@ After completing this exercise, you should be able to discuss or answer the foll
   "Iteration" means a single execution of the loop body.
 
 - _When_ does the **condition** expression of a `while` loop get evaluated?
+  The **condition** expression of the `while` loop gets evaluated before each iteration.
 
 - _When_ does the **initialization** expression of a `for` loop get evaluated?
+  The **initialization** expression of a `for` loop gets evaluated once when entering he loop.
 
 - _When_ does the **condition** expression of a `for` loop get evaluated?
 

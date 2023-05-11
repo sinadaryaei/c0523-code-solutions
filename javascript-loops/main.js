@@ -36,3 +36,17 @@ function repeatWord(word, times) {
   }
   return repeated;
 }
+
+function logEachCharacter(string) {
+  for (let i = 0; i < string.length; i++) {
+    console.log('value of string:', string[i]);
+  }
+}
+
+function doubleAll(numbers) {
+  const doubled = [];
+  for (let i = 0; i < numbers.length; i++) {
+    doubled.push(numbers[i]);
+  }
+  return doubled;
+}

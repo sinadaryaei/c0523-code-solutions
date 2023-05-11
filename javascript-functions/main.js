@@ -29,21 +29,28 @@ const getAreaResult = getArea(17, 42);
 console.log('value of getAreaResult:', getAreaResult);
 
 function getFirstName(person) {
-  return getFirstNameResult;
+  const firstName = person.firstName;
+  return firstName;
 }
 
-const names = { firstName: 'Lelouche', lastName: 'Lamperouge' };
+const getFirstNameResult = getFirstName({
+  firstName: 'Lelouche',
+  lastName: 'Lamperouge',
+});
 
-const getFirstNameResult = names.firstName;
-
-console.log('value of getFirstNameResult:', getFirstName(names));
+console.log('value of getFirstNameResult:', getFirstNameResult);
 
 function getLastElement(array) {
-  return getLastElementResult;
+  const lastIndex = array.length - 1;
+  const lastElement = array[lastIndex];
+  return lastElement;
 }
 
-const myArray = ['propane', 'and', 'propane', 'accessories'];
+const getLastElementResult = getLastElement([
+  'propane',
+  'and',
+  'propane',
+  'accessories',
+]);
 
-const getLastElementResult = myArray[myArray.length - 1];
-
-console.log('value of getLastElementResult:', getLastElement(myArray));
+console.log('value of getLastElementResult:', getLastElementResult);

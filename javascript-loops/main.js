@@ -50,3 +50,18 @@ function doubleAll(numbers) {
   }
   return doubled;
 }
+
+function getKeys(object) {
+  const keys = [];
+  for (const key in object) {
+    keys.push(key);
+  }
+  return keys;
+}
+function getValues(object) {
+  const values = [];
+  for (const key in object) {
+    values.push(object[key]);
+  }
+  return values;
+}

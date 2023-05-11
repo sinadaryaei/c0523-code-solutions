@@ -21,14 +21,21 @@ After completing this exercise, you should be able to discuss or answer the foll
   The **initialization** expression of a `for` loop gets evaluated once when entering he loop.
 
 - _When_ does the **condition** expression of a `for` loop get evaluated?
+  The **condition** expression of a `for` loop gets evaluated at the beginning.
 
 - _When_ does the **final** expression of a `for` loop get evaluated?
+  The **final** expression of a `for` loop gets evaluated after each
+  iteration of the loop body, before the start of the next iteration.
 
 - Besides a `return` statement, which exits its entire function block, which keyword exits a loop before its **condition** expression evaluates to `false`?
+  The `break` keyword is used to exit the loop before its **_condition_** expression evaluates to `false`.
 
 - What does the `++` increment operator do?
+  The `++` increment operator is used to increas the value of a numeric
+  variable by 1.
 
 - How do you iterate through the keys of an object?
+  Using the `for...in` loop to iterate through the keys of an object.
 
 ## Notes
 

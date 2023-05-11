@@ -46,7 +46,7 @@ function logEachCharacter(string) {
 function doubleAll(numbers) {
   const doubled = [];
   for (let i = 0; i < numbers.length; i++) {
-    doubled.push(numbers[i]);
+    doubled.push(numbers[i] * 2);
   }
   return doubled;
 }

@@ -45,7 +45,7 @@ console.log('value of startsWithJ:', startsWithJ('Kotlin'));
 console.log('value of startsWithJ:', startsWithJ('C#'));
 
 function isOldEnoughToDrink(person) {
-  if (person.age === 21) {
+  if (person.age >= 21) {
     return true;
   } else {
     return false;
@@ -71,7 +71,9 @@ const homer = {
 console.log('value of isOldEnoughToDrive:', isOldEnoughToDrink(homer));
 
 function isOldEnoughToDrinkAndDrive(person) {
-  if (person) {
+  if (person.age >= 16 && person.age >= 21) {
+    return false;
+  } else {
     return false;
   }
 }
@@ -80,4 +82,15 @@ console.log(
   isOldEnoughToDrinkAndDrive(homer, bart)
 );
 
-function categorizeAcidity(pH) {}
+function categorizeAcidity(pH) {
+  if (pH === 7) {
+    return 'neutral';
+  } else if (pH < 7 && pH >= 0) {
+    return 'acid';
+  } else if (pH > 7 && pH <= 14) {
+    return 'base';
+  } else if (pH < 0 || pH > 14) {
+    return 'invalid pH level';
+  }
+}
+console.log('value of categorizeAcidity:', categorizeAcidity(1));

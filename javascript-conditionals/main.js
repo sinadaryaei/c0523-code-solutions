@@ -95,4 +95,40 @@ function categorizeAcidity(pH) {
 }
 console.log('value of categorizeAcidity:', categorizeAcidity(1));
 
-function introduceWarnerBro(name) {}
+function introduceWarnerBro(name) {
+  switch (name) {
+    case 'yakko':
+      return "We're the warner brothers!";
+    case 'wakko':
+      return "We're the warner brothers!";
+    case 'dot':
+      return "I'm cut~";
+    case 'cody':
+      return 'Goodnight everybody!';
+    case 'minerva':
+      return 'Goodnight everybody!';
+    default:
+      return 'Goodnight everybody!';
+  }
+}
+console.log('value of introduceWarnerBro:', introduceWarnerBro());
+
+function recommendMovie(genre) {
+  switch (genre) {
+    case 'action':
+      return 'action movie';
+    case 'comedy':
+      return 'comedy movie';
+    case 'horro':
+      return 'horro movie';
+    case 'drama':
+      return 'drama movie';
+    case 'musical':
+      return 'musical movie';
+    case 'sci-fi':
+      return 'sci-fi movie';
+    default:
+      return 'Pick a movie!';
+  }
+}
+console.log('value of recommendMovie:', recommendMovie());

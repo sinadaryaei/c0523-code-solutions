@@ -11,6 +11,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   By placing it in the `<head>` element.
 
 - Where do the `<head>` and `<body>` tags go in a valid HTML document?
+  The `<head>` and `<body>` tag goes in the `<html>` element.
   The `<head>` comes first and the `<body>` tag comes second.
 
 - What is the purpose of a `<!DOCTYPE>` declaration?

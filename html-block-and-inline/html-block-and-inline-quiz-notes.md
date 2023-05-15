@@ -5,10 +5,10 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - How do block-level elements affect the document flow?
-  Block elements in a horizontal writing mode such as English, layout vertically, one below the other.
+  Block level elements take up the entire section they are created.
 
 - How do inline elements affect the document flow?
-  In an inline formatting context, boxes are laid out horizontally, one after the other, beginning at the top of a containing block.
+  Inline elments will nest itself between elements.
 
 - What are the default width and height of a block-level element?
   The default height of a block-level element is the height of the content. The default width of a block-level element is the length of the page.

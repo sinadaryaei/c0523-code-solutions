@@ -14,7 +14,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   The default height of a block-level element is the height of the content. The default width of a block-level element is the length of the page.
 
 - What are the default width and height of an inline element?
-  The height of an inline element is the height of the content. The width of an inline element is the width of the content
+  The height of an inline element is the height of the content. The width of an inline element is the width of the content.
 
 ## Notes
 

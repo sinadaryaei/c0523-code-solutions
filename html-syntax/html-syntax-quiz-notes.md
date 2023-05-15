@@ -9,8 +9,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   `<img>` Image element, `<ul`> unordered list.
 
 - What is the purpose of HTML attributes?
-  HTML attributes purpose is to provide specific information associated with
-  the attribute sing a name-value pair.
+  HTML attributes purpose is to provide specific information and functionality.
 
 - Give an example of an HTML entity (escape character).
   An example of HTML entity is the (escape character) `&copy;` represents

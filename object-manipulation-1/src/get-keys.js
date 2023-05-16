@@ -1,6 +1,7 @@
 /* exported getKeys */
 function getKeys(object) {
-  const anArray = [];
-  anArray.push(object);
-  return anArray;
+  const arrayValue = [];
+  const getFirstName = object.getFirstName;
+  arrayValue.push(getFirstName);
+  return arrayValue;
 }

@@ -1,7 +1,8 @@
 /* exported getKeys */
 function getKeys(object) {
   const arrayValue = [];
-  const getFirstName = object.getFirstName;
-  arrayValue.push(getFirstName);
+  for (const property in object) {
+    arrayValue.push(property);
+  }
   return arrayValue;
 }

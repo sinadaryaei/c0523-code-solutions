@@ -3,31 +3,35 @@
 }
 
 body {
-  width: 300px;
+  width: 500px;
   margin: 0 auto;
 }
 
 h1 {
-  font-size: medium;
+  font-size: large;
   color: #ec5d57;
+  margin-left: 13rem;
+  letter-spacing: 0.1rem;
 }
 
 h1,
 form,
-label {
+label,
+button {
   font-family: 'Brandon Grotesque', sans-serif;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 label {
-  font-size: small;
-  padding-left: 0.5rem;
+  font-size: 0.85rem;
+  padding: 0.5rem;
+  letter-spacing: 0.005rem;
 }
 
 input {
   font-size: medium;
-  color: #a6a6a6;
+  color: black;
   padding: 0.5rem;
 }
 
@@ -37,4 +41,38 @@ select {
   height: 2.5rem;
   border-radius: 0.5rem;
   border-color: lightgray;
+  border-style: solid;
+}
+
+select {
+  appearance: ;
+  background-color: #f3f3f3;
+  font-weight: 500;
+  border-radius: 0.2rem;
+}
+
+button {
+  font-weight: 500 !important;
+  letter-spacing: normal;
+  font-size: large;
+  width: 7rem;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  margin: 0.5rem 0 0;
+  margin-left: 22rem;
+  background-color: #ec5d57;
+  border-style: hidden;
+  color: white;
+}
+
+button:hover {
+  border-color: #ec5d57;
+  color: #ec5d57;
+  background-color: white;
+  cursor: pointer;
+  border-style: solid;
+}
+
+li {
+  padding-top: 0.3rem;
 }

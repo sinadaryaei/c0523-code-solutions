@@ -2,6 +2,16 @@
   list-style-type: none;
 }
 
+body {
+  width: 300px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: medium;
+  color: #ec5d57;
+}
+
 h1,
 form,
 label {
@@ -11,11 +21,20 @@ label {
 }
 
 label {
-  font-size: x-small;
+  font-size: small;
+  padding-left: 0.5rem;
 }
 
-h1 {
-  text-align: center;
+input {
   font-size: medium;
-  color: #ec5d57;
+  color: #a6a6a6;
+  padding: 0.5rem;
+}
+
+input,
+select {
+  width: 29rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  border-color: lightgray;
 }

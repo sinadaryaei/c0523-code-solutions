@@ -1,0 +1,56 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+}
+
+.column-full {
+  display: flex;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.buttons {
+  border: 0;
+  background-color: white;
+  color: #a6a6a6;
+}
+
+.buttons,
+.contact-button {
+  font-size: medium;
+  font-family: Anvier, sans-serif;
+  padding: 1rem;
+}
+
+.contact-button {
+  border: none;
+  background-color: #294464;
+  color: white;
+  border-radius: 0.25rem;
+}
+
+.contact-button:hover {
+  background-color: #a6a6a6;
+  color: #294464 !important;
+}
+
+.buttons:hover,
+.contact-button:hover {
+  cursor: pointer;
+  color: #294464;
+}
+
+.contact-button:active {
+  background-color: #294464;
+  color: white !important;
+}
+
+.logo {
+  width: 150px;
+}

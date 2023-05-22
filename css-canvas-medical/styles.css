@@ -174,7 +174,7 @@ ul {
 .column-part-one {
   color: white;
   position: relative;
-  top: 7rem;
+  margin-top: 6rem;
   right: 6rem;
   line-height: 1.5rem;
 }
@@ -213,9 +213,8 @@ ul {
 .bottom-button {
   color: ##525351;
   border: 0;
-  padding: 1rem;
   background-color: white;
-  font-size: 1rem;
+  font-size: 15px;
 }
 
 .bottom-button:hover {

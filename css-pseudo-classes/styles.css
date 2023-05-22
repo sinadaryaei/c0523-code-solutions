@@ -1,0 +1,20 @@
+input {
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+input:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+thead > tr {
+  color: white;
+  background-color: black;
+}
+
+tbody > :nth-child(odd) {
+  background-color: lightgray;
+}

@@ -82,12 +82,16 @@ p {
 }
 
 .emr-content {
-  position: absolute;
-  top: 112px;
-  margin: 4rem;
-  padding-right: 60rem;
+  margin-top: 10rem;
+  margin-left: 10rem;
+  margin-right: 20rem;
+  display: flex;
   color: white;
-  z-index: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  top: -5rem;
+  left: -5rem;
 }
 
 .color-button.started-button {
@@ -100,7 +104,7 @@ p {
   position: absolute;
   top: 7rem;
   width: 800px;
-  z-index: -1;
+  z-index: -3;
 }
 
 .background-gray {
@@ -110,7 +114,7 @@ p {
   width: 800px;
   background-color: gray;
   opacity: 50%;
-  z-index: 0;
+  z-index: -1;
 }
 
 .column-two,
@@ -122,7 +126,6 @@ p {
 }
 
 .column-two {
-  margin-top: 35rem;
   text-align: center;
 }
 
@@ -139,6 +142,7 @@ ul {
 }
 
 .column-third {
+  margin-left: 2rem;
   flex-basis: calc(100% / 3);
 }
 
@@ -170,17 +174,19 @@ ul {
 .column-part-one {
   color: white;
   position: relative;
-  top: 8rem;
+  top: 7rem;
   right: 6rem;
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: flex-end;
   line-height: 1.5rem;
+}
+
+.column-part-one > ul {
+  font-size: small;
 }
 
 .column-part-two {
   color: white;
   margin-top: 3rem;
+  margin-left: 2rem;
 }
 
 .canvas-button {
@@ -190,7 +196,7 @@ ul {
   padding-top: 1rem;
   border: 0;
   background-color: #525351;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .canvas-button:hover {
@@ -198,6 +204,21 @@ ul {
   cursor: pointer;
 }
 
-.canvas-index {
-  font-size: 1.5rem;
+.column-bottom > ul {
+  display: flex;
+  justify-content: start;
+  margin-top: 5rem;
+}
+
+.bottom-button {
+  color: ##525351;
+  border: 0;
+  padding: 1rem;
+  background-color: white;
+  font-size: 1rem;
+}
+
+.bottom-button:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }

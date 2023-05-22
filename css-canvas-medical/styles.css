@@ -125,3 +125,14 @@ ul {
   border-width: 1px;
   border-color: lightgray;
 }
+
+.column-third {
+  flex-basis: calc(100% / 3);
+}
+
+.column-thirds {
+  flex-basis: calc(200% / 3);
+  display: flex;
+  justify-content: flex-end;
+  margin: 2rem;
+}

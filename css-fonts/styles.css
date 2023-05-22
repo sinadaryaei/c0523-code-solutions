@@ -1,0 +1,13 @@
+body {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+body > h1,
+p {
+  font-family: Roboto, sans-serif;
+}
+
+body > p {
+  line-height: 3rem;
+}

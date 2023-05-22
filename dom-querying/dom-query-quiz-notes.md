@@ -8,6 +8,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   To see if there is any errors.
 
 - What is a "model"?
+  The "model" represents the HTML document as a tree structure which is used by the JavaScript to access andd manipulate the document.
 
 - Which "document" is being referred to in the phrase Document Object Model?
   Its referring to all page contents that can be modified.
@@ -38,7 +39,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   The `document.querySelector()` takes the first element for the given CSS selector as a arguement and returns it.
 
 - What does `document.querySelectorAll()` take as its argument and what does it return?
-  The `document.querySelectorAll()` takes the CSS selector that matches all the elemetns and returns them.
+  The `document.querySelectorAll()` takes CSS selector as argument and returns object containing the NodeList of all matching selectors.
 
 ## Notes
 

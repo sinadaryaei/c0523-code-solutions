@@ -33,6 +33,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   ```js
   element.addEventListener('click', handleClick());
   ```
+  The first snippet is passing the handClick as callback function while the second snippet is passing the handleClick and calling the function.
 
 ## Notes
 

@@ -27,14 +27,14 @@ button {
   cursor: pointer;
 }
 
-/* .hidden {
+.hidden {
   display: none;
-} */
+}
 
 .box-modal {
   position: absolute;
   width: 500px;
-  height: 350px;
+  height: 250px;
   top: 25%;
   left: 35%;
   background-color: white;

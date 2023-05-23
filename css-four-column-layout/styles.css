@@ -1,11 +1,36 @@
-body.background-color {
-  max-width: 800px;
+.container {
+  max-width: 100%;
   margin: 0 auto;
+}
+
+body {
+  font-family: Barlow, sans-serif;
 }
 
 .row {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.column-full {
+  text-align: center;
+}
+
+.column-fourth {
+  text-align: center;
+}
+
+.phone-image img {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+.icon img {
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: 100px;
 }
 
 .background-color {

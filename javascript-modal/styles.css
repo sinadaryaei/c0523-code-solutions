@@ -2,7 +2,67 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
-  max-width: 800px;
+  max-width: 100%;
   margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+button {
+  font-size: large;
+  width: 150px;
+  height: 30px;
+  color: white;
+  border-radius: 5px;
+  background-color: #4a4ae9;
+  box-shadow: 2px 2px 5px black;
+  border: 0;
+  cursor: pointer;
+}
+
+/* .hidden {
+  display: none;
+} */
+
+.box-modal {
+  position: absolute;
+  width: 500px;
+  height: 350px;
+  top: 25%;
+  left: 35%;
+  background-color: white;
+  justify-content: center;
+  z-index: 2;
+  border-radius: 10px;
+}
+
+h2 {
+  color: black;
+  margin-top: 20%;
+  text-align: center;
+}
+
+.no-button {
+  width: 50px;
+  background-color: #eb5d5d;
+  box-shadow: 2px 2px 5px black;
+  margin: 10px 215px auto;
+}
+
+.background-gray {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  opacity: 50%;
+  z-index: 0;
 }

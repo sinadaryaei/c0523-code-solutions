@@ -3,40 +3,25 @@
 }
 
 .container {
-  max-width: 100%;
+  max-width: 800px;
   margin: 0 auto;
 }
 
 body {
-  margin: 0;
   font-family: Barlow, sans-serif;
 }
 
 .row {
   display: flex;
-  justify-content: flex-start;
-}
-
-.column-full {
-  flex-basis: 100%;
-  text-align: center;
+  justify-content: space-evenly;
 }
 
 .column-fourth {
-  flex-basis: 25%;
   text-align: center;
 }
 
-.phone-image,
 .icon img {
-  margin: 0 auto;
   width: 100px;
-}
-
-.phone-image,
-.icon {
-  display: flex;
-  justify-content: center;
 }
 
 .background-color {
@@ -47,10 +32,6 @@ body {
   height: 100%;
   background-color: #f7f8fa;
   z-index: -1;
-}
-
-h2 {
-  font-weight: bolder;
 }
 
 p {

@@ -8,4 +8,5 @@ $form.addEventListener('submit', (event) => {
     message: $form.elements.name.value,
   };
   console.log('formData:', formData);
+  $form.reset();
 });

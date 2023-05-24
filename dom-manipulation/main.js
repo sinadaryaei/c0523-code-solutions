@@ -4,8 +4,6 @@ const $clickCount = document.querySelector('.click-count');
 
 $hotButton.addEventListener('click', (event) => {
   numberOfClicks++;
-  console.log(event);
-  console.log(event.target);
   $clickCount.textContent = numberOfClicks;
   if (numberOfClicks < 4) {
     $hotButton.className = 'hot-button cold';

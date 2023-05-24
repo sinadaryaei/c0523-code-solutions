@@ -1,12 +1,9 @@
-// const $openModal = document.querySelector('#open-btn');
+const $openModal = document.querySelector('#open-btn');
 // const $noButton = document.querySelector('#no-btn');
-// const $hiddenModal = document.getElementById('box-modal');
-// const $openClicked = false;
+const $modal = document.getElementById('box-modal');
+const $backdrop = document.querySelector('.background-gray');
 
-// $openModal.addEventListener('click', ()=> {
-//   if ($openClicked) {
-//     $hiddenModal.classList.add('box-modal');
-//   }
-//   console.log('event.target', event.target);
-// });
-// console.log('event:', event);
+$openModal.addEventListener('click', () => {
+  $modal.classList.remove('hidden');
+  $backdrop.classList.remove('hidden');
+});

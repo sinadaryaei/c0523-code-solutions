@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-top: 50%;
+}
+
+.words {
+  font-size: 30px;
+  font-family: monospace, sans-serif;
+  white-space: nowrap;
+  padding: 1px;
+}
+
+.space {
+  display: inline-block;
+  width: 20px;
+}

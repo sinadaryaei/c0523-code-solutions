@@ -1,0 +1,223 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Anvier, sans-serif;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  display: flex;
+  align-items: center;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+  margin-top: 0.5rem;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  margin-left: 4rem;
+  padding-left: 10rem;
+}
+
+.buttons {
+  border: 0;
+  background-color: white;
+  color: #a6a6a6;
+}
+
+.buttons,
+.color-button {
+  font-size: small;
+  padding: 1rem;
+}
+
+.color-button {
+  border: none;
+  background-color: #294464;
+  color: white;
+  border-radius: 0.25rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.color-button:hover {
+  background-color: #a6a6a6;
+  color: #294464 !important;
+}
+
+.buttons:hover,
+.color-button:hover {
+  cursor: pointer;
+  color: #294464;
+}
+
+.color-button:active {
+  background-color: #294464;
+  color: white !important;
+}
+
+.logo {
+  width: 125px;
+}
+
+h2 {
+  font-family: 'Tiempos Headline', sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: small;
+  line-height: 1.25rem;
+}
+
+.emr-content {
+  margin-top: 10rem;
+  margin-left: 10rem;
+  margin-right: 20rem;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  top: -5rem;
+  left: -5rem;
+}
+
+.color-button.started-button {
+  font-size: medium;
+  padding: 0.75rem 2.5rem;
+  border-radius: 0.25rem;
+}
+
+.hero {
+  position: absolute;
+  top: 7rem;
+  width: 800px;
+  z-index: -3;
+}
+
+.background-gray {
+  position: absolute;
+  top: 112px;
+  height: 450px;
+  width: 800px;
+  background-color: gray;
+  opacity: 50%;
+  z-index: -1;
+}
+
+.column-two,
+.column-two-halves {
+  width: 1000px;
+  height: 150px;
+  color: #6e6e6e;
+  background-color: #fafafa;
+}
+
+.column-two {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.column-two-halves {
+  text-align: center;
+  line-height: 2rem;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+}
+
+.column-third {
+  margin-left: 2rem;
+  flex-basis: calc(100% / 3);
+}
+
+.column-thirds {
+  display: flex;
+  justify-content: flex-end;
+  flex-basis: calc(200% / 3);
+  margin: 2rem;
+}
+
+.white-logo {
+  position: relative;
+  top: 4rem;
+  left: 4rem;
+}
+
+.background-darkgray {
+  position: absolute;
+  background-color: #525351;
+  width: 800px;
+  height: 300px;
+  z-index: -1;
+}
+
+.column-parts {
+  display: flex;
+}
+
+.column-part-one {
+  color: white;
+  position: relative;
+  margin-top: 6rem;
+  right: 6rem;
+  line-height: 1.5rem;
+}
+
+.column-part-one > ul {
+  font-size: small;
+}
+
+.column-part-two {
+  color: white;
+  margin-top: 3rem;
+  margin-left: 2rem;
+}
+
+.canvas-button {
+  color: white;
+  padding-left: 0;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  border: 0;
+  background-color: #525351;
+  font-size: 1rem;
+}
+
+.canvas-button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.column-bottom > ul {
+  display: flex;
+  justify-content: start;
+  margin-top: 5rem;
+}
+
+.bottom-button {
+  color: ##525351;
+  border: 0;
+  background-color: white;
+  font-size: 15px;
+}
+
+.bottom-button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

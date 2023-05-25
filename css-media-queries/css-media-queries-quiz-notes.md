@@ -13,6 +13,7 @@ The second example is you can query select the `class` attributes
 `value` in the element, specificly the text content between the elements.
 
 - Which HTML meta tag is used in mobile-responsive web pages?
+  The `<meta name="viewport" content="width=device-width, initial-scale=1">` is used to make mobile-responsive web pages.
 
 ## Notes
 

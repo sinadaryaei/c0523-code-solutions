@@ -68,33 +68,32 @@ const pokedex = [
 
 function renderPokemon(pokemon) {
   const $columnThird = document.createElement('div');
+  $columnThird.setAttribute('class', 'column-third');
+
   const $pokemonCard = document.createElement('div');
-  $columnThird.append($pokemonCard);
+  $pokemonCard.setAttribute('class', 'pokemon-card');
 
   const $image = document.createElement('img');
-  $pokemonCard.append($image);
+  $image.setAttribute('src', pokemon.imageUrl);
 
   const $cardText = document.createElement('div');
-  $image.append($cardText);
+  $cardText.setAttribute('class', 'pokemon-card-text');
 
   const $h2 = document.createElement('h2');
-  $cardText.append($h2);
+  $h2.textContent = pokemon.name;
 
   const $h3 = document.createElement('h3');
-  $h2.append($h3);
+  $h3.textContent = pokemon.number;
 
   const $p = document.createElement('p');
-  $h2.append($p);
+  $p.textContent = pokemon.description;
 
-  $image.setAttribute('class', 'imageUrl');
-  $h2.setAttribute('class', 'pokemon-name');
-  $h3.setAttribute('class', 'pokemon-number');
-  $p.setAttribute('class', 'description');
-
-  $image.textContent = 'imagUrl';
-  $h2.textContent = 'name';
-  $h3.textContent = 'number';
-  $p.textContent = 'description';
+  $columnThird.appendChild($pokemonCard);
+  $pokemonCard.appendChild($image);
+  $pokemonCard.appendChild($cardText);
+  $cardText.appendChild($h2);
+  $cardText.appendChild($h3);
+  $cardText.appendChild($p);
 
   return $columnThird;
 }

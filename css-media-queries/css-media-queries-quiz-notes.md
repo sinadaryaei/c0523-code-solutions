@@ -6,11 +6,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 
 - Give two examples of media features that you can query in an `@media` rule.
 
-First example is is you can query the CSS ruleset in the `@media` query
-declaraton block.
-
-The second example is you can query select the `class` attributes
-`value` in the element, specificly the text content between the elements.
+Both `min-width` and `max-width`.
 
 - Which HTML meta tag is used in mobile-responsive web pages?
   The `<meta name="viewport" content="width=device-width, initial-scale=1">` is used to make mobile-responsive web pages.

@@ -11,8 +11,8 @@ After completing this exercise, you should be able to discuss or answer the foll
   Using the `appendChild()` method.
 
 - What do you pass as the arguments to the `element.setAttribute()` method?
-  You pass two arguments first the `class` attribute and the second argument what that attribute is going
-  to add ie; a string value or property object.
+  You pass two arguments first set the attribute and the second argument what value is going
+  to be.
 
 - What steps do you need to take in order to insert a new element into the page?
   Step 1. `createElement()` method and assign it to a variable.

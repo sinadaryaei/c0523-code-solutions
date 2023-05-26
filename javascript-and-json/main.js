@@ -22,12 +22,10 @@ console.log('typeof anArray:', typeof anArray);
 console.log('value of JSON:', JSON.stringify(anArray));
 console.log('typeof of JSON:', typeof JSON.stringify(anArray));
 
-const student = JSON.stringify({ numberId: 1234, stringName: 'studetName' });
+const student = '{"numberId": 1234, "stringName":"name"}';
 
-console.log('value of student:', student);
-console.log('type of student:', typeof student);
+console.log('value of student:', JSON.stringify(student));
+console.log('type of student:', typeof JSON.stringify(student));
 
-const parseStudent = JSON.parse(student);
-
-console.log('value of parseStudent', parseStudent);
-console.log('type of parseStudent', typeof parseStudent);
+console.log('value of student:', JSON.parse(student));
+console.log('type of student:', typeof JSON.parse(student));

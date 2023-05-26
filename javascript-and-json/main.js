@@ -24,8 +24,8 @@ console.log('typeof of JSON:', typeof JSON.stringify(anArray));
 
 const student = '{"numberId": 1234, "stringName":"name"}';
 
-console.log('value of student:', JSON.stringify(student));
-console.log('type of student:', typeof JSON.stringify(student));
+console.log('value of student:', student);
+console.log('type of student:', typeof student);
 
 console.log('value of student:', JSON.parse(student));
 console.log('type of student:', typeof JSON.parse(student));

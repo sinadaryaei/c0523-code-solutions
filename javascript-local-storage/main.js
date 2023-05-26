@@ -31,6 +31,8 @@ for (let i = 0; i < todos.length; i++) {
   $todoList.appendChild($todo);
 }
 
+console.log('test');
+
 function renderTodo(todo) {
   /**
    * <li class="list-group-item">

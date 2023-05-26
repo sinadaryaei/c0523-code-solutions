@@ -5,8 +5,10 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - How do you store data in `localStorage`?
+  Using the `.setItem()` method.
 
 - How do you retrieve data from `localStorage`?
+  Using the `.getItem()` method.
 
 - What data type can `localStorage` save in the browser?
 

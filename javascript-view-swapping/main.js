@@ -14,10 +14,8 @@ $tabContainer.addEventListener('click', (event) => {
       }
     }
     const $dataView = event.target.getAttribute('data-view');
-    console.log($dataView);
     for (let i = 0; i < $allView.length; i++) {
       const loopView = $allView[i];
-      console.log('loopView', loopView);
       if (loopView.getAttribute('data-view') === $dataView) {
         $allView[i].classList.remove('hidden');
       } else {

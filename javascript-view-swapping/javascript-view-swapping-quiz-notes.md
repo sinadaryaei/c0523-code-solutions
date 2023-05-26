@@ -9,16 +9,16 @@ After completing this exercise, you should be able to discuss or answer the foll
   triggered the event.
 
 - What is the affect of setting an element to `display: none`?
-  The `display:none` affects the visibility of that event.
+  The `display:none` removes from the flow, `visibilty: hidden` doesn't show the content but takes up the space.
 
 - What does the `element.matches()` method take as an argument and what does it return?
   The `element.matches()` is used to check if an element matches a specified CSS selector.
 
 - How can you retrieve the value of an element's attribute?
-  Using `set.Attribute()`.
+  Using `get.Attribute()`.
 
 - At what steps of the solution would it be helpful to log things to the console?
-  Throughout the sections of each step that is completed.
+  Throughout each step.
 
 - If you were to add another tab and view to your HTML, but you didn't use event delegation, how would your JavaScript code be written instead?
   It would require to manually create a `event` handler and `event` listener for each `.tab` and `.view`.

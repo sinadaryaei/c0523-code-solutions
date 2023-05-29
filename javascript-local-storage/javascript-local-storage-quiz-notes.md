@@ -11,8 +11,10 @@ After completing this exercise, you should be able to discuss or answer the foll
   Using the `.getItem()` method.
 
 - What data type can `localStorage` save in the browser?
+  Data type will store JSON strings.
 
 - When does the `'beforeunload'` event fire on the `window` object?
+  When all the resources on the document are about to be taken away.
 
 ## Notes
 

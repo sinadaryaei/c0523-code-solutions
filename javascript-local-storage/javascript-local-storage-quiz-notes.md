@@ -20,6 +20,8 @@ After completing this exercise, you should be able to discuss or answer the foll
 
 All student notes should be written here.
 
+Text so I can commit and push.
+
 How to write `Code Examples` in markdown
 
 for JS:

@@ -1,0 +1,35 @@
+.hidden {
+  content-visibility: hidden !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.column-full {
+  flex-basis: calc(100% / 3);
+  position: relative;
+}
+
+img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

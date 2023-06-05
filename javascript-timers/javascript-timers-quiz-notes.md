@@ -18,9 +18,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   It defaults to 0.
 
 - What do `setTimeout()` and `setInterval()` return?
-  The `setTimeout()` only executes the function onece the timer expires, and the
-  `setInterval()` repeatedly calls the function or executes code snippet with
-  a fixed time delay between each call.
+  Returns a timer Id.
 
 ## Notes
 

@@ -11,10 +11,16 @@ After completing this exercise, you should be able to discuss or answer the foll
   `setTimeout();` method being used to delay the execution of JavaScript function.
 
 - How can you set up a function to be called repeatedly without using a loop?
+  `setInterval();` method is used to repeatedly call a function with a fixed time delay
+  between each call.
 
 - What is the default time delay if you omit the `delay` parameter from `setTimeout()` or `setInterval()`?
+  It defaults to 0.
 
 - What do `setTimeout()` and `setInterval()` return?
+  The `setTimeout()` only executes the function onece the timer expires, and the
+  `setInterval()` repeatedly calls the function or executes code snippet with
+  a fixed time delay between each call.
 
 ## Notes
 

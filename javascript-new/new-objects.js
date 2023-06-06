@@ -1,4 +1,4 @@
-const anObject = new Object({});
+const anObject = new Object();
 
 console.log('value of anObject:', anObject);
 console.log('typeof anObject:', typeof anObject);
@@ -13,7 +13,7 @@ const aFunction = new Function();
 console.log('value of aFunction', aFunction);
 console.log('typeof aFunction:', typeof aFunction);
 
-const aString = new String('');
+const aString = new String();
 
 console.log('value of aString:', aString);
 console.log('typeof aString:', typeof aString);

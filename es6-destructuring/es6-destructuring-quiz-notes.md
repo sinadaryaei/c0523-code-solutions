@@ -13,8 +13,12 @@ After completing this exercise, you should be able to discuss or answer the foll
   to it.
 
 - What is the syntax for `Array` destructuring?
+  The syntax for `Array` destructuring is the `keyword` opening and closing bracket `[]`
+  with the assignment operator to the `array`.
 
 - How can you tell the difference between destructuring and creating `Object`/`Array` literals?
+  The difference between the destructring and creating `object` / `array` literals
+  is the use of curly bracest `{}` for the `objects` and the brackets `[]` for the literals.
 
 ## Notes
 

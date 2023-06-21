@@ -10,6 +10,7 @@ const v4 = [3, 5, 7, 9];
  * In one expression, log "v2 is truthy" to the console only if `v2` is truthy.
  * Expected: v1 message logs, v2 message does not.
  */
+
 v1 && console.log('v1 is truthy');
 v2 && console.log('v2 is truthy');
 
@@ -51,6 +52,7 @@ console.log('cfg3', cfg3);
  * Log `tern1` and `tern2`.
  * Expected: `tern1 = 'truthy'`, `tern2 = 'falsy'`.
  */
+
 const tern1 = v1 ? 'truthy' : 'falsey';
 const tern2 = v2 ? 'truthy' : 'falsey';
 
@@ -67,6 +69,14 @@ console.log('tren2 =', tern2);
  * Expected: `oc1 = 'Something'`, `oc2 = undefined`, `oc3 = undefined`.
  */
 
+const oc1 = v1?.value;
+const oc2 = v2?.value;
+const oc3 = v3?.value;
+
+console.log('oc1 =', oc1);
+console.log('oc2 =', oc2);
+console.log('oc3 =', oc3);
+
 /* TODO:
  * Copy an object and add one property.
  * In one expression, make a copy of the variable v1, add the property
@@ -75,6 +85,10 @@ console.log('tren2 =', tern2);
  * Expected: `sObj = { value: 'Something', foo: 'bar' }`.
  */
 
+const sObj = { ...v1, foo: 'bar' };
+
+console.log('sObj =', sObj);
+
 /* TODO:
  * Copy an array and prepend one element.
  * In one expression, make a copy of the variable v4, add the element
@@ -82,3 +96,9 @@ console.log('tren2 =', tern2);
  * Log `sArr`.
  * Expected: `sArr = [100, 3, 5, 7, 9]`.
  */
+
+const sArr = [...v4];
+
+sArr.unshift(100);
+
+console.log('sArr =', sArr);

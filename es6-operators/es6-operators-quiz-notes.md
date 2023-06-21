@@ -6,6 +6,9 @@ After completing this exercise, you should be able to discuss or answer the foll
 
 - What are the `&&` (logical AND) and `||` (logical OR) operators and how can they be used outside of `if` statements?
 
+(Logical AND) `&&` and (logical OR) `||` operatorsa are used to perform logical operations. They can be used outside of `if` statements as assignments, function
+arguements and expressioins.
+
 - What is "short-circuit evaluation" and how does it apply to `&&` and `||`?
 
 - What is the `??` (nullish coalescing) operator and how does it differ from `||`?
@@ -23,6 +26,11 @@ After completing this exercise, you should be able to discuss or answer the foll
 ## Notes
 
 All student notes should be written here.
+
+```
+const v1 = { value: 'Something' };
+v1 && console.log('v1 is truthy');
+```
 
 How to write `Code Examples` in markdown
 

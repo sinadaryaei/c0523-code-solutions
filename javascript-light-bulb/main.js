@@ -1,15 +1,25 @@
-const $light = document.querySelector('.light');
-const $background = document.querySelector('.background');
-let $lightOn = true;
+import React, { useState } from 'react';
+import './App.css';
 
-$light.addEventListener('click', () => {
-  if ($lightOn) {
-    $light.className = 'light on';
-    $background.className = 'background on';
-    $lightOn = false;
-  } else {
-    $light.className = 'light';
-    $background.className = 'background';
-    $lightOn = true;
-  }
-});
+function App() {
+  const [lightOn, setLightOn] = useState(true);
+
+  const handleClick = () => {
+    setLightOn(!lightOn);
+  };
+
+  return (
+    <div className="container">
+      <div className="row">
+        <div className="column-full">
+          <div
+            className={`light ${lightOn ? '' : 'on'}`}
+            onClick={handleClick}></div>
+          <div className={`background ${lightOn ? '' : 'on'}`}></div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default App;

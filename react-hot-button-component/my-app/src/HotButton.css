@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.button-gray {
+  background-color: gray;
+  color: white;
+}
+
+.button-purple {
+  background-color: purple;
+  color: white;
+}
+
+.button-light-purple {
+  background-color: #674ea7;
+  color: white;
+}
+
+.button-red {
+  background-color: red;
+  color: white;
+}
+
+.button-orange {
+  background-color: orange;
+  color: white;
+}
+
+.button-yellow {
+  background-color: yellow;
+  color: black;
+}
+
+.button-white {
+  background-color: white;
+  color: black;
+}

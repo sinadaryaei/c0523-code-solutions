@@ -1,0 +1,35 @@
+h1 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  margin: 0;
+}
+
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.indicator {
+  border-width: 2.5px;
+  border-top-color: gray;
+  border-left-color: gray;
+  border-right-color: blue;
+  border-bottom-color: blue;
+  cursor: pointer;
+}
+
+.indicator:active {
+  border-width: 2.5px;
+  border-right-color: gray;
+  border-bottom-color: gray;
+  border-top-color: blue;
+  border-left-color: blue;
+  cursor: pointer;
+}
+
+.indicator.active {
+  background-color: lightblue;
+}

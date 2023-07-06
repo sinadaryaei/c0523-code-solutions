@@ -1,7 +1,7 @@
-import Add from './add.js';
-import Subtract from './subtract.js';
-import Multiply from './multiply.js';
-import Divide from './divide.js';
+import Add from './add';
+import Subtract from './subtract';
+import Multiply from './multiply';
+import Divide from './divide';
 
 const [, , num1, operation, num2] = process.argv;
 

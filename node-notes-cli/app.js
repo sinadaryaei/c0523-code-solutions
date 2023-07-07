@@ -11,13 +11,20 @@ try {
   };
 }
 
-async function addNote(content) {
-  if (!content) {
-    throw new Error('Content is required to add a note.');
-  }
-  data.notes[data.nextId] = content;
-  data.nextId++;
+async function saveNotes() {
   await fs.writeFile('data.json', JSON.stringify(data, null, 2));
+}
+
+async function addNote(id, content) {
+  if (!content) {
+    content = id;
+    id = data.nextId++;
+  }
+  if (data.notes[id]) {
+    throw new Error(`Note with ID ${id} already exists.`);
+  }
+  data.notes[id] = content;
+  await saveNotes();
 }
 
 function listNotes() {
@@ -42,7 +49,7 @@ async function deleteNote(id) {
     throw new Error('Note ID does not exist.');
   }
   delete data.notes[id];
-  await fs.writeFile('data.json', JSON.stringify(data, null, 2));
+  await saveNotes();
 }
 
 async function updateNote(id, content) {
@@ -53,7 +60,7 @@ async function updateNote(id, content) {
     throw new Error(`Note with ID ${id} does not exist.`);
   }
   data.notes[id] = content;
-  await fs.writeFile('data.json', JSON.stringify(data, null, 2));
+  await saveNotes();
 }
 
 const [, , command, arg1, arg2] = process.argv;
@@ -63,7 +70,7 @@ const [, , command, arg1, arg2] = process.argv;
     switch (command) {
       case 'add':
       case 'create':
-        await addNote(arg1);
+        await addNote(arg1, arg2);
         console.log('Note added.');
         break;
       case 'list':

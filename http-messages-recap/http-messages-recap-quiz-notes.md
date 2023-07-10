@@ -26,7 +26,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   The mdn.
 
 - Is a body required for a valid HTTP request or response message?
-  No.S
+  No.
 
 ## Notes
 

@@ -1,0 +1,17 @@
+{
+  "nextId": 5,
+  "notes": {
+    "2": {
+      "id": 2,
+      "content": ":bye"
+    },
+    "3": {
+      "id": 3,
+      "content": ":okay"
+    },
+    "4": {
+      "id": 4,
+      "content": ":play"
+    }
+  }
+}

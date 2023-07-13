@@ -1,0 +1,48 @@
+.carousel-container {
+  position: relative;
+}
+
+.carousel-container img {
+  width: 30%; /* Adjust as needed */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.carousel-container .nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 2em; /* Adjust as needed */
+  cursor: pointer;
+}
+
+.carousel-container .nav-button.prev {
+  left: 10px;
+}
+
+.carousel-container .nav-button.next {
+  right: 10px;
+}
+
+.carousel-container .nav-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.carousel-container .nav-dots .dot {
+  background: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 15px; /* Adjust as needed */
+  height: 15px; /* Adjust as needed */
+  margin: 0 5px; /* Adjust as needed */
+  cursor: pointer;
+}
+
+.carousel-container .nav-dots .dot.active {
+  background: black;
+}

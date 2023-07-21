@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Link, useParams } from 'react-router-dom'; // Import Link and useParams
+import { Link, useParams } from 'react-router-dom';
 import { fetchProduct, toDollars } from '../lib';
 import './ProductDetails.css';
 
